@@ -1,0 +1,4 @@
+Membuat variables declare dengan data type integer, string. dan real
+Menggunakan input dan output
+Menganalisis program yang error dalam flowgorithm
+Mengetahui fungsi &"|" & pada output dalam flowgorithm.

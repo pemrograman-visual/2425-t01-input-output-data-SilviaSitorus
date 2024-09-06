@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:13:29 AM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtVFFORDlLUEM7MjAyNC0wOS0wNDswODo1ODoxOCBQTTsyODA5"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtVFFORDlLUEM7MjAyNC0wOS0wNjsxMToxMzoyOSBBTTs1OzI4OTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN, judul, penulis" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="judul"/>
+            <input variable="penulis"/>
+            <declare name="tahun" type="Integer" array="False" size=""/>
+            <input variable="tahun"/>
+            <declare name="penerbit" type="String" array="False" size=""/>
+            <input variable="penerbit"/>
+            <declare name="format" type="String" array="False" size=""/>
+            <input variable="format"/>
+            <declare name="harga, margin" type="Real" array="False" size=""/>
+            <input variable="harga"/>
+            <input variable="margin"/>
+            <declare name="stock" type="Integer" array="False" size=""/>
+            <input variable="stock"/>
+            <declare name="rating" type="Real" array="False" size=""/>
+            <input variable="rating"/>
+            <output expression="ISBN &amp;&quot;|&quot; &amp; judul &amp;&quot;|&quot; &amp; penulis &amp;&quot;|&quot; &amp; tahun &amp;&quot;|&quot; &amp; penerbit &amp;&quot;|&quot; &amp; format &amp;&quot;|&quot; &amp; harga &amp;&quot;|&quot; &amp; margin &amp;&quot;|&quot; &amp; stock &amp;&quot;|&quot; &amp; rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
