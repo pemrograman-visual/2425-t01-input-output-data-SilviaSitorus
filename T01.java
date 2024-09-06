@@ -1,10 +1,9 @@
 // 12S24004 - Silvia Eklesiana Br. Sitorus
 // 12S24032 - Angga Brillyant Pratama Sianipar
-
 import java.util.*;
 import java.lang.Math;
 
-public class T01 {
+public class T01{
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class T01 {
         penulis = input.nextLine();
         int tahun;
 
-        tahun = input.nextInt();
+        tahun = Integer.parseInt(input.nextLine());
         String penerbit;
 
         penerbit = input.nextLine();
@@ -24,14 +23,14 @@ public class T01 {
         format = input.nextLine();
         double harga, margin;
 
-        harga = input.nextDouble();
-        margin = input.nextDouble();
+        harga = Double.parseDouble(input.nextLine());
+        margin = Double.parseDouble(input.nextLine());
         int stock;
 
-        stock = input.nextInt();
+        stock = Integer.parseInt(input.nextLine());
         double rating;
 
-        rating = input.nextDouble();
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahun + "|" + penerbit + "|" + format + "|" + harga + "|" + margin + "|" + stock + "|" + rating);
     }
 }
